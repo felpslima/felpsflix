@@ -24,4 +24,8 @@ a {
   color: inherit;
 }
 
-div#root > div{background: #141414;}
+div#root{
+  min-height: calc(100vh - var(--bodyPaddingTop));
+  display: flex;
+  flex-direction: column;
+}
